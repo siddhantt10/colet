@@ -1,3 +1,17 @@
+#COLET
+
+A one stop place for University students to sell/buy Used goods among their peers.
+
+-/ Under Development. /-
+
+
+
+
+
+
+
+// Auto Generated -
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
