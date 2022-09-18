@@ -1,16 +1,15 @@
 import React from 'react'
 import Header from './component/Header';
 
-function Home() {
+function Cart() {
   return (
     <>
+
         <Header />
-        <div>
-            Under development :)
-        </div>
+        <div>Cart</div>
         
     </>
   )
 }
 
-export default Home;
+export default Cart;
