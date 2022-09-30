@@ -49,7 +49,7 @@ function About() {
               pfp="pfp.png"
               name="Akash Sinha"
               reg_no="21BCE10271"
-              linkedIn="ttps://www.linkedin.com/mwlite/in/akash-sinha-7512a6252"
+              linkedIn="https://www.linkedin.com/in/akash-sinha-7512a6252"
               gitHub="https://github.com/Aka-ash"
               gmail="akash.sinha0720@gmail.com"
             />
