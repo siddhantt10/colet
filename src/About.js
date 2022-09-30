@@ -29,7 +29,7 @@ function About() {
               pfp="pfp.png"
               name="Shashwat Malewar"
               reg_no="21BCE10320"
-              linkedIn="https://www.linkedin.com/in/siddhantt10/"
+              linkedIn="https://www.linkedin.com/in/shashwat-malewar-081b0322b"
               gitHub="https://github.com/shashwatM33"
               gmail="shashwat.malewar2021@vitbhopal.ac.in"
             />
