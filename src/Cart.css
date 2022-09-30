@@ -1,0 +1,26 @@
+.cart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart__left{
+    margin-right: auto;
+}
+.cart__product{
+    width: 800px;
+}
+.cart__right{
+    margin: 20px;
+}
+
+.cart__mt > h1{
+    font-size: 5rem;
+    margin-left: 300px;
+    margin-top: 250px;
+}
+
+.cart__yo{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

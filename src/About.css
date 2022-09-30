@@ -1,0 +1,59 @@
+.about{
+    text-align: center;
+}
+
+
+.about > h3{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: -5px;
+
+}
+.about > img{
+    width: 250px;
+    margin-bottom: 50px;
+
+}
+:hover .icons{
+    border: 1px;
+    border-color: #fff;
+}
+
+.profile__cardd{
+    margin-bottom: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+:hover #boi1{
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+:hover #boi2{
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+:hover #boi3{
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+:hover #boi4{
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+:hover #boi5{
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ccard{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: auto;
+}
+.cardd{
+    margin-left: auto;
+    margin-bottom: 50px;
+    max-height: 550;
+}
+

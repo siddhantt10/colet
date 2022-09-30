@@ -3,15 +3,27 @@ import './Header.css';
 import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { useStateValue } from '../StateProvider';
+import { auth } from '../firebase';
 
 function Header() {
+  const [{ cart, user }] = useStateValue();
+  console.log(user);
+
+  const login = () => {
+    if (user) {
+      auth.signOut();
+    }
+  };
+
+
   return (
     <div class="header">
 
       {/* Logo on the left */}
       <Link to="/">
         <img 
-          class="header__logo" 
+          className="header__logo" 
           src="coletLTE.png"  
           alt="logo"
         />
@@ -43,23 +55,26 @@ function Header() {
         </Link>
 
         {/* Link 3 */}
-        <Link to="/" className="header__link">
+        {/* <Link to="/" className="header__link">
           <span className="header__options">
             Orders
           </span>
-        </Link>
+        </Link> */}
 
         {/* Link 4 */}
-        <Link to="/login" className="header__link orange-text-bus">
-          <span className="header__options header__signin">
-            Sign in
-          </span>
+        <Link to={!user && "/login"} className="header__link orange-text-bus">
+          <div onClick={ login }>
+            <span className="header__options header__signin">
+              {user ? 'Sign out' : 'Sign in'}
+            </span>
+          </div>
         </Link>
 
         {/* Link 3 */}
         <Link to="/cart" className="header__link">
           <span className="header__options">
             <ShoppingCartIcon className='cartIcon' />
+            {cart?.length}
           </span>
 
         </Link>

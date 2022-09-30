@@ -15,7 +15,9 @@ export default function BsCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
+        <a href='#home__sell'>
         <Button className='bsc__btn1' variant="outline-light" size="lg">Explore</Button>
+        </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -26,7 +28,9 @@ export default function BsCarousel() {
         />
 
         <Carousel.Caption>
+        <a href='#home__product'>
         <Button className='bsc__btn' variant="outline-light" size="lg">Explore</Button>
+        </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -37,7 +41,9 @@ export default function BsCarousel() {
         />
 
         <Carousel.Caption>
+        <a href='#home__product'>
         <Button className='bsc__btn' variant="outline-light" size="lg">Explore</Button>
+        </a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

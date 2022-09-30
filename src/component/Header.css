@@ -31,6 +31,7 @@
 .orange-text-bus{
     color: #F66B0E;
     text-decoration: none;
+    font-weight: 750;
 }
 .cartIcon{
     display: flex;

@@ -1,0 +1,45 @@
+.profile__card{
+    width: 350px;
+    height: 550px;
+    max-width: 350px;
+    max-height: 550px;
+    background-color: #112B3C;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+
+.profile__img{
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.profile__name{
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 50px;
+    color: #fff;
+    margin-bottom: -10px;
+    text-align: left;
+}
+
+.profile__reg{
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 50px;
+    color: #fff;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.icons{
+    display: flex;
+}
+
+.profile__icon{
+    width: 50px;
+    margin-left: 50px;
+}

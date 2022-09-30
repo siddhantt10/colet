@@ -1,0 +1,19 @@
+.checkoutProduct{
+    display: flex;
+    Margin: 20px;
+    background-color: rgb(187, 187, 187);
+}
+
+.checkoutProduct__title{
+    padding-top: 20px;
+}
+
+.checkoutProduct__image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct__info{
+    padding-left: 20px;
+}
